@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+body {
+    background-color: lightblue;
+    font-family: Asap, sans-serif;
+}
+
+table {
+    font-size: 2rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+td {
+    border: 1px solid grey;
+    padding: 1rem;
+}

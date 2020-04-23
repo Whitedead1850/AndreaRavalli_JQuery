@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Cinema</h1>
+
+
+    <fieldset>
+        <h2>Keuze tickets:</h2>
+        <input type="radio" name="ticket" id="1" value="1">
+        <label for="1">Eén ticket</label><br>
+
+        <input type="radio" name="ticket" id="2" value="2">
+        <label for="1">twee tickets</label><br>
+    </fieldset>
+
+    <fieldset>
+        <h2>Food & Drinks</h2>
+        <input type="checkbox" name="extras" id="popcorn" value="popcorn">
+        <label for="popcorn">Popcorn (€5)</label><br>
+
+        <input type="checkbox" name="extras" id="cola" value="cola">
+        <label for="cola">Cola (€2.5)</label><br>
+
+        <input type="checkbox" name="extras" id="chips" value="chips">
+        <label for="chips">Chips (€3)</label><br>
+    </fieldset>
+
+    <button id="pay">Betalen</button>
+
+    <div id="kassabon">
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Prijs</th>
+            </tr>
+            <tr class="tickets">
+                <td>ticket(s)</td>
+                <td class="result">r</td>
+            </tr>
+            <tr class="extras">
+                <td>e</td>
+                <td class="result">r</td>
+            </tr>
+
+            <tr class="total">
+                <td>Totaal</td>
+                <td class="result">r</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
